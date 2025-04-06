@@ -8,7 +8,7 @@ let [counter, setCounter] = useState(100);
 
 //let counter = 100;
 const addVal = ()=>{
-  if(counter<20){
+  if(counter<100){
   let plus = counter  + 1;
   setCounter(plus);
   }else{
