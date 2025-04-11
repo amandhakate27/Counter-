@@ -10,7 +10,7 @@ function App() {
       let plus = counter + 1;
       setCounter(plus);
     } else {
-      console.log("limit error!");
+      alert("limit error!");
     }
   }
   let rmVal = () => {
@@ -18,7 +18,7 @@ function App() {
       let minus = counter - 1;
       setCounter(minus);
     } else {
-      console.log("limit error!");
+      alert("limit error!");
     }
 
   }
